@@ -1,0 +1,25 @@
+# Dangerous Excel Shortcuts
+
+> Excel shortcuts that silently change more than the cell you're looking at. Reference-only. 34 entries across 9 categories. Part of The Arsenal (https://rblake2320.github.io/).
+
+Note for agents: this page renders its cards with client-side JavaScript, so a plain HTTP fetch of index.html will not contain the entries. Fetch the structured data directly instead:
+https://raw.githubusercontent.com/rblake2320/dangerous-excel-shortcuts/main/data.json
+
+## Data schema
+Array of objects: cat (category), cmd (command or key combo), desc (what it does and why it matters), badge/badgeLabel (risk tier), shell ("cmd"|"ps"|"bash"), optional needsAdmin (bool), optional isInfo (bool = concept/reference card, not runnable).
+
+## Categories
+- Data Destruction Risks
+- Filtered & Visible-Only
+- Flash Fill & AutoFill
+- Navigation Power Moves
+- Paste Special
+- Recalculation & Auditing
+- Repeat & Redo
+- Selection Traps
+- Workbook-Wide Risks
+
+## Related
+- Site hub: https://rblake2320.github.io/
+- Repository: https://github.com/rblake2320/dangerous-excel-shortcuts
+- MCP / CLI access: https://rblake2320.github.io/mcp.html
